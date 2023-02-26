@@ -37,7 +37,7 @@ Web ブラウザの開発者ツールを開き、コンソールに入力して�
 
 ```js
 function test() {
-    alert('関数が呼ばれました！');
+  alert('関数が呼ばれました！');
 }
 ```
 
@@ -54,7 +54,7 @@ test();
 
 ```js
 function test2(name) {
-    alert('私の名前は' + name + 'です');
+  alert('私の名前は' + name + 'です');
 }
 ```
 
@@ -72,9 +72,9 @@ test2('xxxxx');
 
 ```js
 function test3(age) {
-    let newAge = age + 10;
-    let message = '10年後は' + newAge + '歳です';
-    return message;
+  let newAge = age + 10;
+  let message = '10年後は' + newAge + '歳です';
+  return message;
 }
 ```
 
